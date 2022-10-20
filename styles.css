@@ -1,8 +1,19 @@
 body {
-    background:blue;
+    background:rgba(143, 173, 250, 0.773);
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.assignment{
+    display:flex;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(228, 215, 160, 0.959);
+}
+
+.assignment img {
+    width: 200px;
+    padding: 10px;
+}
 h1{
     color: whitesmoke;
     text-align: center;
