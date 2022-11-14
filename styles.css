@@ -12,9 +12,19 @@ body {
 
 .assignment img {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 10px solid cornflowerblue
 }
 h1{
     color: whitesmoke;
     text-align: center;
+}
+
+a {
+    text-decoration:none;
+    color:rgb(135, 108, 160)
+}
+
+a:hover {
+    color:azure
 }
