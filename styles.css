@@ -3,21 +3,35 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.assignment{
+.assignments {
     display:flex;
+    flex-wrap:wrap;
+}
+
+.assignment{
+    width:22%;
     padding: 10px;
     margin: 10px;
+    padding: 20px 10px;
     background: rgba(228, 215, 160, 0.959);
+    border-radius: 5px;
 }
 
 .assignment img {
     width: 200px;
     margin: 10px;
-    border: 10px solid cornflowerblue
+    border: 10px solid cornflowerblue;
+    display:block;
+    margin:auto;
+
 }
-h1{
+h1 {
     color: whitesmoke;
     text-align: center;
+}
+
+h2 {
+    text-align:center;
 }
 
 a {
